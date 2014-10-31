@@ -1,0 +1,133 @@
+*comment Copyright 2010 by Dan Fabulich.
+*comment 
+*comment Dan Fabulich licenses this file to you under the
+*comment ChoiceScript License, Version 1.0 (the "License"); you may
+*comment not use this file except in compliance with the License. 
+*comment You may obtain a copy of the License at
+*comment 
+*comment  http://www.choiceofgames.com/LICENSE-1.0.txt
+*comment 
+*comment See the License for the specific language governing
+*comment permissions and limitations under the License.
+*comment 
+*comment Unless required by applicable law or agreed to in writing,
+*comment software distributed under the License is distributed on an
+*comment "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+*comment either express or implied.
+
+*title Ghost Quest
+*author AM Patalas
+*scene_list
+  startup
+  diamond_lake
+  variables
+  gosub
+  ending
+  death
+
+*create warrior false
+*create knows_parents false
+*create leave_lea false
+
+*create mage false
+*create guard_help false
+
+*create rogue false
+*create with_alex false
+
+Game crated for Alyssa Monera's 20th birthday. It was created using ChoiceScript by Dan Fabulich, with a little tweaking of CSS code.
+
+On your birthday, I'd like to wish you everything best - a lot of happiness and love in your life, success, interesting dissuscions with people worthy of your time, good deals on hipster backpacks, and academic challenges that make you stronger. Whichever path you choose - I'm sure it will be a good one, no matter if it's just a browser game, or your whole life.
+
+Happy birthday Boo!
+
+*page_break
+
+First things first: who are you?
+
+*choice
+  #Warrior. I'm the mighty madien who can carry the heaviest sword!
+    *set warrior true
+    The swords might not be playthings for princesses, but you never were a princess. Or, if you were, you have no idea. You don't know anything about your parents. For as long as you can remember, it was only you and your sister Lea, travelling accross the world. She took you everywhere, from big cities to tiny villages, from mountain top to the seaside. You asked her multiple times about your mom and dad - but she said some things are better left unsaid. You couldn't complain - few attacks on you here and there didn't compare with the pleasure of exploring the world. At your 20th birthday, Lea gives you a birthday wish. You can choose your next destination, or leave her, if you please.
+    *choice
+        #You leave Lea. Time to grow up.
+          *set leave_lea true
+          Lea is full of sadness, but she understands. She gives you her best sword and a warm coak, and wishes you all the luck in the world. You go on your first own journey.
+          *finish
+        #All you want is to hear about your parents.
+          Lea frowns. "I told you," she says, "It's not a thing you should think about. Whoever they were, now it's just you and me."
+          *choice
+            #You insist.
+              *set knows_parents true
+              After long time of arguing, Lea finally yells, "They wanted to sell us! Stop being so obsessed with them! I was the only one who tried to protect you!" There are tears in her eyes. "Maybe I didn't do the best job in the world," she says, "But I did my best."
+              
+              You can feel your heart breaking - you hold her tight.
+              
+              "I'm sorry, Lea," you say. "I never thought... I didn't think..." You can't tell what would be worse - her anger or her crying. But none of these comes, and she hugs you back.
+              
+              "Let's just go somehwere nice?" She asks. "We've never been to Diamond Lake before."
+              *finish
+            #You let it go.
+              *finish
+        #You heard Diamond Lake is the most beautiful place on Earth...
+          Lea smiles. "It's a long way from here," she says, "But I think we can make it."
+          *finish
+  #Mage. No puny weapon can stop the power of my mind.
+    *set mage true
+    Your magic isn't that brilliant - or, at least, you never use it for fighting or miracle-making. You're just a simple witch travelling from town to town, entertaining audience with your tricks. The 'proper' mages aren't crazy about people like you... But what do they know? They can preach about specialness of magic all they long, if they want - that's not going to pay for your food.
+
+    You need to pick next place for your magic show. Where do you want to go?
+    *choice
+      #Big city, big money, baby.
+        *set guard_help true
+        Once you arrive to the city gates, you find out you can't come in.
+
+        "No mages!" The guard yells upon seeing your magic staff. "Our King is suffering from mysterious illness! You could make it worse."
+
+        "Please, Sir?" You ask, making your saddest face. "I've got nowhere to sleep... The forrest won't be a plesant place once it gets dark."
+
+        The guard eyes you up and down and sighs. "There's a small tavern nearby, close to the Diamond Lake. You can make it before the sun sets. When you get there, say Garret send you - there will be no problems."
+
+        You smile at him. This isn't exactly what you wanted, but you're grateful for his help anyway.
+        *finish
+      #The Diamond Lake. Shining water is a perfect place for spells. And it sounds quite rich, too!
+        *finish
+  #Rogue. Hawkeye ain't got nothin' on me and my bow.
+    *set rogue true
+    *set with_alex true
+    Alright then, Katniss. You come from a long line of dukes and madiens. Your family wanted you to take over family's castle and marry a nice, rich Lord. This plan didn't seem all that bad - until you fell in love. Alex is nothing like a husband your parents wanted you to have. First of all, she's a lady. Second of all, not really a lady - just a regular maid girl. She took care of horses in your castle. All things considered, you picked love over family line. You and Alex ran away from the village, and now you live on the run.
+
+    But after few weeks, being on the run gets tiring... 
+    *choice
+      #Maybe it's time to go home...
+        Well, Alex isn't very happy with that.
+
+        "Are you serious? After all we went through? You want to quit when it gets a little worse?" She shakes her head.
+        *choice
+          #You look away. "Maybe it wasn't a good idea, Alex."
+            *set with_alex false
+            Alex bites her lip, worried. "You want to break up?"
+
+            After a moment of silence, you nod slowly.
+
+            There's no more anxiety in Alex's face. It becomes still as a piece of rock. "Whatever," she says and gets on her horse. "Have a good life, milady."
+
+            *page_break
+
+            You can't really find your way around the forrest all on your own...
+
+            *page_break
+
+            After hours of being lost, with no water or rest, you pass out.
+
+            *finish
+
+          #"No, no, I don't mean it like that."
+            You hold her close. "I just think we need to think more about ourselves. Less about being rebels."
+
+            Alex sighs and relaxes in your arms. "I guess you have a point. Let's make a longer stop. It's silly to think your parents will find us, after all this time."
+            *finish
+
+        
+      #You need some nice place to rest. How about Diamond Lake?
+        *finish

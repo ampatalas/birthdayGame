@@ -1,0 +1,31 @@
+*if warrior
+	*if leave_lea
+		You travel without Lea. It isn't very hard, because she trained you well. You miss her sometimes, but you feel like your decision was a correct one. Your first destination is The Diamond Lake.
+
+		When you reach it, it's a middle of the night. You hide under the trees and have a small nap.
+		*page_break
+
+		Page 2
+
+		*finish
+	*else
+		You reach the Diamond Lake. It's beautiful, like nothing you've ever seen before. Once you arrive, Lea squeezes your hand. "I've read about it," she says. "The books said it's full of good powers."
+
+		"Like good magic?" You ask, and Lea nods.
+
+		"I can almost feel it," she whispers. "I'm not a witch or anything, but it's certainly there."
+		*if knows_parents 
+			
+			You look at her face, then you look away. "I'm sorry about those parents questions," you say. "I never thought it'd be so... Dark. Now I understand you wanted to protect me. The way you always do." You pause. "I promise to protect you back some day."
+
+			She smiles at you.
+		*page_break
+
+		Page 2
+
+		*finish
+*if rogue
+	Hi rogue.
+
+*if mage
+	Hi mage.
