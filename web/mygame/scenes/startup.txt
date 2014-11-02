@@ -23,7 +23,6 @@
   variables
   gosub
   ending
-  death
 
 *create warrior false
 *create knows_parents false

@@ -72,7 +72,6 @@
 						You don't come out - you fall asleep in your hiding. When you wake up, the boy and his camp are gone.
 						*goto_scene ending
 
-		*finish
 	*else
 		You reach the Diamond Lake. It's beautiful, like nothing you've ever seen before. Once you arrive, Lea squeezes your hand. "I've read about it," she says. "The books said it's full of good powers."
 
@@ -86,11 +85,92 @@
 			She smiles at you.
 		*page_break
 
-		Page 2
+		You and Lea travel around the lake. The Diamond Lake is huge, so it's at least a week-long trip. You don't complain, as they views are amazing.
+		*page_break
 
-		*finish
+		On day three, you discover a werid cave. It doesn't look dangerous, but Lea warns you, that despite looking quite boring, it might be a magical spot.
+
+		"Or there can be something amazing. Like gold," you are quite interested. You've never seen the inside of the cave before.
+
+		"We can go," Lea says. "But think about it deepy."
+
+		*choice
+			#You want to go.
+				*finish
+			#You decide not to go.
+				Lea and you make it to the village nearby. You both decide this place is quite lovely and you want to stay there for few weeks. You set up a camp, buy a chicken, and get all homey. Before you know it, the winter is coming. You both decide to wait until the winter is over in the village. You spend the most wonderful weeks there, with long nights by the fire and big festive dinner around New Years Eve. As the spring comes to life, you move out, and head onto your next adventure!
+				*goto_scene ending
+
 *if rogue
-	Hi rogue.
+	*if with_alex
+		You and Alex stay in the village nearby the lake. People give you some weird looks as you book the room, and you start to worry that your parents' influences already got there. Alex isn't any less concerned, but she rubs your arm gently to calm you down.
+
+		"Everything is alright," she says. "Don't worry about them. We're here to relax and have a good time."
+
+		You smile at her. You two head into your room and cuddle each other to sleep.
+		*finish
+	
+	*else
+		You wake up upon hearing a weird noise. You can hear someone walking nearby... What do you do?
+		*choice
+			#I pick up my bow, ready to face whoever is coming.
+				The person who bothered you is a young boy, about your age. His hair is dark and messy, and so are his eyes. He nearly jumps in the spot, seeing the arrow in his face. "What are you doing here?" He asks, terrified. "This is my spot."
+				*choice
+					#"Really. Because it isn't signed anywhere."
+						*goto talk_with_boy_r
+
+					#You put your bow down. "I'm sorry... I was just scared. I'll move somewhere else."
+						He sighs. "It's alright... You can stay"
+						
+						"So, what does make this spot yours?" You ask.
+
+						*label talk_with_boy_r
+						He blushes. "It's just... I always sleep in this area when I visit the lake."
+
+						"You visit it often?" You ask. "Do you have any buissnes in here?"
+
+						"You could say so," he says. "My mother was buried nearby. Every year, on the anniversary of her death, I travel here to pay my honors and leave some flowers."
+
+						"Is it safe? You're so young..."
+
+						He smiles a bit. "So are you."
+
+						You blush, half-flustered and half-angry. "I can handle myself," you say, then you think for a moment. "But I could use some companionship."
+
+						He raises his eyebrow.
+
+						"You clearly know the area," you go on. "I do not. We could travel together - I can protect you, if you'll be my guide."
+
+						He thinks about it for a moment.
+
+						"Deal."
+						*finish
+
+			#I hide in the bushes.
+				The person who bothered you is a young boy, about your age. He sets up a camp for himself, puts a small fire, and eats a small dinner. It seems like he's going to stay there are night.
+				*choice
+					#Come out of hiding.
+						The boy notices you, and picks up the knife. He soon realizes you seem unarmed.
+
+						"I'm sorry, Ma'am. Can I help you?" He asks.
+
+						You shake your head with disbelief. "Why is a young boy such as yourself alone in the woods?"
+
+						"I'm no younger than yourself."
+
+						You blush, half-flustered and half-angry. "I can handle myself," you say.
+
+						"I have no doubt." The boy sighs. "If you must know - my mother was buried nearby. Every year, on the anniversary of her death, I travel here to pay my honors and leave some flowers. That'd be tomorrow."
+
+						You look him up and down. "How about I go with you?" You suggest. You'd feel much better with the companion, as you never travelled on your own before. You are pretty sure you could kill him if neccesary. "I could use a guide to escort me to the nearest village."
+
+						He thinks about it for a moment.
+
+						"Deal." He shakes your hand. "I'm Kale."
+						*finish
+					#Stay in bushes.
+						You don't come out - you fall asleep in your hiding. When you wake up, the boy and his camp are gone.
+						*goto_scene ending
 
 *if mage
 	Hi mage.
