@@ -15,4 +15,4 @@
 *comment "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
 *comment either express or implied.
 
-This is the last scene!  The game is over!
+You reached the game ending!

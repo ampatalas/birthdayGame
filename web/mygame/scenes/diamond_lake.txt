@@ -5,7 +5,72 @@
 		When you reach it, it's a middle of the night. You hide under the trees and have a small nap.
 		*page_break
 
-		Page 2
+		You wake up from your map upon hearing a weird noise. You can hear someone walking nearby your tree... What do you do?
+		*choice
+			#I pick up my sword, ready to face whoever is coming.
+				The person who bothered you is a young boy, about your age. His hair is dark and messy, and so are his eyes. He nearly jumps in the spot, seeing your sword. "What are you doing here?" He asks. "This is my spot."
+				*choice
+					#"Really. Because it isn't signed anywhere."
+						*goto talk_with_boy
+
+					#"I'm sorry. I'll move somewhere else."
+						He sighs. "It's alright... But please, hide that sword?" He raises his arms. "See? No weapon on me."
+						*choice
+							#You are weary. You keep it, just in case.
+								"Be smart about it, and I won't use it," you say.
+								*goto sword_talk
+							#You hide your sword.
+								"If you do anything stupid..." You hide your sword.
+
+								*label sword_talk
+								"So, what does make this spot yours?" You ask.
+
+								*label talk_with_boy
+								He blushes. "It's just... I always sleep in this area when I visit the lake."
+
+								"You visit it often?" You ask. "Do you have any buissnes in here?"
+
+								"You could say so," he says. "My mother was buried nearby. Every year, on the anniversary of her death, I travel here to pay my honors and leave some flowers."
+
+								"Is it safe? You're so young..."
+
+								He smiles a bit. "So are you."
+
+								"Yes, but unlike you, I carry a big-ass sword." You look him up and down. "I have an offer for you."
+
+								He raises his eyebrow.
+
+								"You clearly know the area," you go on. "I do not. We could travel together - I can protect you, if you'll be my guide."
+
+								He thinks about it for a moment.
+
+								"Deal."
+								*finish
+			#I hide in the bushes.
+				The person who bothered you is a young boy, about your age. He sets up a camp for himself, puts a small fire, and eats a small dinner. It seems like he's going to stay there are night.
+				*choice
+					#Come out of hiding.
+						The boy notices you, and picks up the knife. He realizes his knife is really punny compared to your sword.
+
+						"I'm sorry, Ma'am. Can I help you?" He asks.
+
+						You shake your head with disbelief. "Why is a young boy such as yourself alone in the woods?"
+
+						"I'm no younger than yourself."
+
+						"That can be true - but I'm clearly better prepared for fight."
+
+						The boy sighs. "If you must know - my mother was buried nearby. Every year, on the anniversary of her death, I travel here to pay my honors and leave some flowers. That'd be tomorrow."
+
+						You look him up and down. "How about I go with you?" You suggest. You'd feel much better with the companion, as you never travelled without your sister before. "You'll get protection out of it. Myself - a guide."
+
+						He thinks about it for a moment.
+
+						"Deal." He shakes your hand. "I'm Kale."
+						*finish
+					#Stay in bushes.
+						You don't come out - you fall asleep in your hiding. When you wake up, the boy and his camp are gone.
+						*goto_scene ending
 
 		*finish
 	*else

@@ -1,8 +1,16 @@
-This is a stats screen!
+Where are you in the game?
 
-*stat_chart
-  percent Leadership
-  opposed_pair Strength
-    Weakness
-  text Leadership
-  text Strength
+*if warrior
+	You are a warrior.
+	*if knows_parents
+		You know the truth about your parents.
+	*if leave_lea
+		You have left your sister Lea.
+
+*if rogue
+	You are a rogue.
+	*if with_alex
+		You are travelling with your lover Alex.
+
+*if mage
+	You are a mage.
