@@ -173,4 +173,40 @@
 						*goto_scene ending
 
 *if mage
-	Hi mage.
+	*if guard_help
+		Upon arriving to The Diamond Lake, you find the tavern Garret send you to. It's small, but seems nice, and there's a smoke coming out of the chimney. You shiver just at the idea of a warm meal and bed to sleep in - you didn't rest under a roof for a while.
+
+		You knock at the door, but there's no answer, not at first. You know why - there are loud noises from the inside of the tavern. You probably weren't heard. You pick up your staff and bang on the door with it. That finally gets you the reaction you wanted.
+
+		Door is opened by short, red-faced man. "No place!" He says before you even get to tell him anything.
+
+		"Garret send me," you answer.
+
+		"Garret?" Man looks you up and down. "Well... He's a reasonable man." He moves from the door so you can come in.
+
+		*page_break
+
+		When you eat your dinner, a little girl approaches you.
+
+		"Can you show me a magic trick?" She asks.
+
+		*choice
+			#You tell her to get lost.
+				Girl backs off and runs into one of the rooms. It seems weird to you - did she hang out in the main room alone, without her parent or sibling? You eye the doors for the moment, then get up and move closer to them. You don't hear any sound of conversation in the room. You push the door slightly - and they move under your touch... The door is empty.
+
+				"What are you doing, miss?" The landlord asks. "This is not your room - it's not anyone's room, it's just the place we keep cloths and such."
+
+				You look inside. Indeed, there's nothing but cleaning things.
+
+				"I thought I saw the light there," you say. "I'm probably just tired."
+
+				The man nods. "You better get some rest. It's late."
+				*finish
+			#You decide to entertain her.
+				You show her how you mix the water from your cup and the fire from the fireplace together. She's excited - she claps happily, but other guests give you dirty looks.
+
+				"Sorry, little girl, but that's all from me," you say as you hide your staff.
+
+				"Thank you," she says.
+				*finish
+	*else
