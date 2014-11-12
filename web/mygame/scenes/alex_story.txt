@@ -1,0 +1,28 @@
+Despite all, you love being with Alex. The aventure, the rush, the love she gives you - it couldn't compare with anything castle and rich life had to ofer.
+*page_break
+After few days of rest in the village, you feel better about life and your relationship. You decide to move out of the country to start a new life. The journey is long and takes a lot of preparation. As you soon find out, living without money isn't that cool after all.
+*choice
+	#Ask parents for help.
+		Nice try, but they totally disowned you. Also put yu to jail. Alex helps you escape, but the memories still aren't nice.
+		
+		*goto cont
+	#You find some job.
+		*label cont
+		It takes ages to save enough money for your journey. By the time you do get them, you and Alex start to wonder if leaving is really worth it, as the money could be used for better living right where you are.
+		*choice
+			#Decide to stay.
+				You and Alex build a little house in the woods, and together grow old. You go to sleep by the sounds of wolves howling, and you never ever feel scared of them. People start calling you evil lesbian witches of the woods.
+
+				Good.
+
+				*finish
+			#Leave anyway.
+				The new country is bigger and greater. It's easier to be annonymous, but it's also harder to get by each day. All of this leaves strain on your relationship, but you both feel like you invested too much in it to let go.
+
+				*page_break
+
+				You decide to take things easy for some time, and actually start to enjoy your life again. Bring the adventure where it once was.
+
+				It ends well for everyone involved.
+				*finish
+*finish

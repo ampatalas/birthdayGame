@@ -20,7 +20,7 @@
 *scene_list
   startup
   diamond_lake
-  variables
+  ghost_story
   gosub
   ending
 
@@ -33,6 +33,7 @@
 
 *create rogue false
 *create with_alex false
+*create tavern_entertainer false
 
 Game crated for Alyssa Monera's 20th birthday. It was created using ChoiceScript by Dan Fabulich, with a little tweaking of CSS code.
 

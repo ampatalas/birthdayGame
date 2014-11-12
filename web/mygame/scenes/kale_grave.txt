@@ -1,0 +1,74 @@
+You and Kale travel into the woods surrounding lake. After few hours of travelling, you begin to wonder if he really knows the area at all.
+*choice
+	#You still trust him, though.
+		You can't really tell why, but you feel like Kale is trustworthy. You follow him, albeit alert.
+		*goto fight
+
+	#Question his knowledge.
+		"I'm starting to think you don't know the area as well as you said you did," you say, folding your arms together. "Is your mother buried really that deep in the woods? Why does it feel like we're going in circles?"
+
+		Kale looks at you, a bit of hurt and anger in his eyes. "Listen, stranger," he says. "It's not easy. The area is not all shiny water and flowers. We need to stay alert."
+
+		"Oh trust me, I am," you hiss. "Don't test me, boy. Remember that I cary my weapon with me."
+
+		*label fight
+		Not soon after, Kale is pulled between the trees by someone. You can't see the enemy clearly, but you rush after them. Whoever is pulling Kale, he's fast - you trip over a branch and fall to your face, and before you know it, you lose them out of sight.
+
+		*page_break
+
+		You stand up, feling hopeless. You think it's over, but suddenly you hear a scream. It's not a boy-scream. It sounds like a woman - but it sounds like it could be nearby, so you run in that direction anyway.
+
+		*page_break
+
+		You make it to the valley. The trees are gone - there's nothing but grass and earth. You look around. The whole place seems filled with magic. You shiver.
+		*choice
+			#Explore the meadow.
+				You take some steps forward. Soon enough, you notice the grass disappearing under your feet. You're standing on the stone. After a moment you realize, you're actually standing on a grave. The lettering reads, "Lilian, a loving mother and wife." You guess this is the grave of Kale's mother.
+
+				*choice
+					#You say a little prayer.
+						Kale appears in front of you. "Thank you," he says, "For helping me get there."
+
+						You gasp. "But... You were attacked!"
+
+						Kale shakes his head. "It's just a memory. I'm just a memory - I'm a ghost. Every year I travell here from the otherworld. I look for a soul to carry on the memories, which I can no longer carry. The memory of thugs killing my mother."
+
+						"Is that why you were taken away? Was it actually..." You swallow. "Your mother? Was she the one who got assulted?"
+
+						Kale nods. "I followed them just as you followed me - and I ended up here. I found her body in this exact spot. Just like you found me right now."
+
+						You sigh deeply. "Is your spirit free now?"
+
+						Kale shakes his head. "Only for a year," he says. "Then I'll come back, to hunt someone else."
+
+						"Is there no other way?" You ask.
+
+						"None that I know of," he says. He stars wanishing in the evening air. "Thank you, traveler. Remember me and my mother."
+						*finish
+					#You are creeped out. You run.
+						*goto hunting
+			#Leave
+				*label hunting
+				When you try to leave, some force pulls you back. You scream and try to run, and the pulling gets stronger. The force grabs you by the hair. You start screaming, and you try to fight it off, but it's hard to fight with the enemy you can't see.
+
+				"Let me go!" You scream.
+
+				You hear a terrible howl. "Pay your respects to the dead!"
+		
+				"I'll pay respect to your butt! By kicking it!" You push your sword to the source of the noise. The howl gets louder, but the force lets you go. You stab it again, and suddenly you see Kale's face before your eyes.
+
+				"Kale?" You gasp. He grimaces.
+
+				"Help me!" He says. Then his voice gets deeper, into that terrible howl again. "Pay respect to the dead," he whines again.
+
+				*choice
+					#Kill him.
+						You stab him right in the heart. Right after that, he disappears. You're shaken up and upset. You get up and leave as soon as possible.
+						*finish
+					#"Okay, okay! Tell me how!"
+						"Look below you," he moans.
+
+						You do. And you see his mother's grave. You say a little prayer of rememberance.
+
+						Everything calms down. Kale, or the demon - you don't know which was which, or if they were the same thing - disappears. You run.
+						*finish

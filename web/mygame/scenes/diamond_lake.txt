@@ -210,3 +210,34 @@
 				"Thank you," she says.
 				*finish
 	*else
+		Upon arriving to The Diamond Lake, you find a cosy tavern. You knock at its doors, and the man opens, but as soon as he sees your staff, he tells you to leave.
+
+		"Please?" You ask. "It's a terribly dark night out there."
+
+		"I'm sure you can make it brighter with some spells of yours," he says before closing the door. 
+
+		*page_break
+
+		You look around - there's a barn nearby, where the tarven guests keep their horses. You go inside - the animals are already asleep. You're not crazy about the smell, but it can do for the night. You eat a small meal and fall asleep in the hay.
+
+		*page_break
+
+		In the morning, the tarven owner nudges you. "How dare you?" He yells. "Sleeping in my barn like this!"
+
+		You hiss. "Careful, old man - unless you want to turn into the frog!"
+
+		He looks at you, suddenly pale. "Please don't!" He says. "You can stay over tonight!"
+
+		*choice
+			#Apologize for threatening him.
+				*set tavern_entertainer true
+				"I'm sorry," you say. "I just got a little nervous... I mean no harm to you or your buissnes. How would you feel about me performing in your tarven tonight? I do know a trick of two."
+
+				He thinks about it. "It actually sounds great," he says. "My guest could use a little entertainment."
+
+				You two shake hands to seal the deal.
+				*finish
+
+			#Scare him.
+				You start mumbling a spell, and the tavern owner runs away. You giggle to yourself, but get your things and leave. He could come back with some help.
+				*finish

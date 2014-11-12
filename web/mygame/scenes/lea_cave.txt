@@ -1,0 +1,108 @@
+You and Lea enter the cave. The ground is wet from the lake, so you take very careful steps. You soon realize the cave is an uncanny place - the walls are glittering with gold, it's quiet and still, and more comfortable than your regular cave.
+
+"I'm sure someone lived there," Lea says, "And made it their hiding spot. We could find some treasures here."
+
+Your eyes light up. You always wanted to find a treausre. 
+
+"But remember," Lea says, "This place might be dangerous. If we actually find any treasures, they can be cursed."
+
+*page_break
+
+You reach a big room. It is, indeed, full of treasures.
+*choice
+	#You don't touch anything.
+		You look around - the treasures seem to pull you closer, tempting you to touch them, but you stay strong. You can tell by Lea's face that she's not liking this place either.
+		"Let's get out of here," she says, and you nod.
+
+		*page_break
+
+		You take the way back out of the cave.
+
+		*page_break
+
+		You go for a while, but you don't seem to find the exit.
+
+		"I think we're lost," Lea mutters. "But how? We went straight the entire time."
+
+		"I think it's this magic," you say. "Whatever is keeping us here, doesn't want us to get out."
+
+		*page_break
+
+		You keep wandering. Eventually you have to sit down and rest.
+
+		*page_break
+
+		Your head gets heavy.
+
+		*page_break
+
+		You hear a scream. You look around - Lea is gone.
+
+		"Lea?" You yell. "Sister, where are you?"
+
+		You hear an evil giggle. The dark figure appears in front of you. It's a witch.
+
+		"Your sister can't hear you!" She says. "No one can hear you, and no one ever will."
+
+		*page_break
+
+		You pick up your sword and hit the witch. Before the blade even touches her, she disappears from view. You feel a hit of magic powers from behind.
+
+		*page_break
+
+		You start swining your sword like crazy, hoping to eventually get her. She laughs, and her laughter fills your brain. You scream and take one last big hit.
+
+		*page_break
+
+		You made it, you killed the witch! You blink. Lea is standing in front of you, terrified. "You started screaming and waving your sword around," she says.
+
+		"I was fighting the witch! And you were gone!"
+
+		Lea shakes her head. "I was here entire time. You didn't seem to see me - or anything - until you crashed the necklace."
+
+		You look down. In the spot where you thought the witch was there's nothing but a necklace with a magical rune on it.
+
+		"Let's get out of here," you say, terrified. "Before something bad happens."
+
+		Lea nods.
+
+		*page_break
+
+		This time, after a moment of running, you see the light. You look at Lea with joy, and the smiles at you, as well, even if she's scared. You move slowly, carefuly, towards the entrance.
+
+		*page_break
+
+		You make it out of cave. You never come back there.
+		*finish
+
+	#You ignore Lea's warning and you pick up golden necklace.
+		Necklace disappears in your hand, and you hear a scream. You look around - Lea is gone.
+
+		"Lea?" You yell. "Sister, where are you?"
+
+		You hear an evil giggle. The dark figure appears in front of you. It's a witch.
+
+		"Your sister can't hear you!" She says. "No one can hear you, and no one ever will. It's your punishment for stealing!"
+
+		*page_break
+
+		You pick up your sword and hit the witch. Before the blade even touches her, she disappears from view. You feel a hit of magic powers from behind.
+
+		*page_break
+
+		You start swining your sword like crazy, hoping to eventually get her. She laughs, and her laughter fills your brain. You scream and take one last big hit.
+
+		*page_break
+
+		You made it, you killed the witch! You blink. Lea is standing in front of you, terrified. "You started screaming and waving your sword around," she says.
+
+		"I was fighting the witch! And you were gone!"
+
+		Lea shakes her head. "I was here entire time. You didn't seem to see me - or anything - until you crashed the necklace."
+
+		You look down. In the spot where you thought the witch was there's nothing but a neckplace you picked up second ago.
+
+		"Let's get out of here," you say. "It's not worth the trobule."
+
+		Lea nods.
+		*finish
