@@ -21,7 +21,6 @@
   startup
   diamond_lake
   ghost_story
-  gosub
   ending
 
 *create warrior false

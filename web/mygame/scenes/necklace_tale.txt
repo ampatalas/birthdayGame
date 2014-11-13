@@ -1,0 +1,45 @@
+*page_break
+
+After few weeks, you bump into another mage in the tavern you stay in at the time. She's also a traveller, but she's not an entertainer, as you are.
+
+She looks at you accross the room, and you can tell she knows. She nods at you, so you leave your table and sit by hers.
+
+"I can feel great powers from you," she says. "Do you study magic?"
+
+"I don't study it - I just use it. I'm an entertainer," you explain. She looks you up and down, but there's no judgement in her eyes.
+
+"Your powers are awfully high, in that case," she says. "Are you sure you know how to control them?"
+
+*choice
+  #You feel offended by the suggestion.
+    "I can handle my own powers, thank you very much," you say, folding your arms. "Just because I'm not all nose-in-the-books like you thinkers..."
+
+    With one small move of her hand, she shuts your mouth. "You might not be crazy about our lifestyle," she says, "but it's no reason for disrespecting us."
+
+    She frees your mouth, but you don't say anything. You just blush.
+
+    "I just want to help," she says.
+
+    *choice
+      #You accept her help.
+        *goto help
+
+      #You leave.
+        Your powers consume your soul and you die trying to keep them in. Sorry!
+        *finish
+  #You admit your powers aren't natural.
+    *label help
+    She nods. "Can I see the source of your power, then?"
+
+    You show her the necklace. She doesn't touch it, but she examines it carefully. "It's from the other world," she says. "Whoever gave you that, they connected you with the world of ghosts. It makes your magical aura stronger. I couldn't use powers of this necklace - no one but you could."
+
+    You think about it.
+
+    She smiles slightly, shyly. "I'm pretty sure you're not into studying magic, but learning something about it could help. Even if you go back to puttin' shows, at least your soul will get some rest. Being connected to other world must be taking a strain on it."
+
+    *page_break
+
+    Laura, the witch, teaches you all she knows about magic. You two develop a deep bond - sealed by your powers and the aura of the other world. She joins you in your travells - she's always there to calm you down when you feel the anxieties of your heart.
+
+    The End
+    *finish
