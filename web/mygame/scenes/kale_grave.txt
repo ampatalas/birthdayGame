@@ -33,7 +33,7 @@ You and Kale travel into the woods surrounding lake. After few hours of travelli
 
 						Kale shakes his head. "It's just a memory. I'm just a memory - I'm a ghost. Every year I travell here from the otherworld. I look for a soul to carry on the memories, which I can no longer carry. The memory of thugs killing my mother."
 
-						"Is that why you were taken away? Was it actually..." You swallow. "Your mother? Was she the one who got assulted?"
+						"Is that why you were taken away? Was it actually..." You swallow. "Your mother? Was she the one who got assaulted?"
 
 						Kale nods. "I followed them just as you followed me - and I ended up here. I found her body in this exact spot. Just like you found me right now."
 
@@ -43,7 +43,7 @@ You and Kale travel into the woods surrounding lake. After few hours of travelli
 
 						"Is there no other way?" You ask.
 
-						"None that I know of," he says. He stars wanishing in the evening air. "Thank you, traveler. Remember me and my mother."
+						"None that I know of," he says. He starts vanishing in the evening air. "Thank you, traveler. Remember me and my mother."
 						*finish
 					#You are creeped out. You run.
 						*goto hunting

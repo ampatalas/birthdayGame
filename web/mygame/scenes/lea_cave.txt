@@ -100,9 +100,9 @@ You reach a big room. It is, indeed, full of treasures.
 
 		Lea shakes her head. "I was here entire time. You didn't seem to see me - or anything - until you crashed the necklace."
 
-		You look down. In the spot where you thought the witch was there's nothing but a neckplace you picked up second ago.
+		You look down. In the spot where you thought the witch was there's nothing but a necklace you picked up second ago.
 
-		"Let's get out of here," you say. "It's not worth the trobule."
+		"Let's get out of here," you say. "It's not worth the trouble."
 
 		Lea nods.
 		*finish

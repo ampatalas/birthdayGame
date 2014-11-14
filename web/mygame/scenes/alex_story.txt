@@ -3,7 +3,7 @@ Despite all, you love being with Alex. The aventure, the rush, the love she give
 After few days of rest in the village, you feel better about life and your relationship. You decide to move out of the country to start a new life. The journey is long and takes a lot of preparation. As you soon find out, living without money isn't that cool after all.
 *choice
 	#Ask parents for help.
-		Nice try, but they totally disowned you. Also put yu to jail. Alex helps you escape, but the memories still aren't nice.
+		Nice try, but they totally disowned you. Also put you to jail. Alex helps you escape, but the memories still aren't nice.
 		
 		*goto cont
 	#You find some job.
@@ -17,7 +17,7 @@ After few days of rest in the village, you feel better about life and your relat
 
 				*finish
 			#Leave anyway.
-				The new country is bigger and greater. It's easier to be annonymous, but it's also harder to get by each day. All of this leaves strain on your relationship, but you both feel like you invested too much in it to let go.
+				The new country is bigger and greater. It's easier to be anonymous, but it's also harder to get by each day. All of this leaves strain on your relationship, but you both feel like you invested too much in it to let go.
 
 				*page_break
 

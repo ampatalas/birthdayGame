@@ -34,9 +34,9 @@
 *create with_alex false
 *create tavern_entertainer false
 
-Game crated for Alyssa Monera's 20th birthday. It was created using ChoiceScript by Dan Fabulich, with a little tweaking of CSS code.
+Game created for Alyssa Monera's 20th birthday. It was created using ChoiceScript by Dan Fabulich, with a little tweaking of CSS code.
 
-On your birthday, I'd like to wish you everything best - a lot of happiness and love in your life, success, interesting dissuscions with people worthy of your time, good deals on hipster backpacks, and academic challenges that make you stronger. Whichever path you choose - I'm sure it will be a good one, no matter if it's just a browser game, or your whole life.
+On your birthday, I'd like to wish you everything best - a lot of happiness and love in your life, success, interesting discussions with people worthy of your time, good deals on hipster backpacks, and academic challenges that make you stronger. Whichever path you choose - I'm sure it will be a good one, no matter if it's just a browser game, or your whole life.
 
 Happy birthday Boo!
 
@@ -94,7 +94,7 @@ First things first: who are you?
   #Rogue. Hawkeye ain't got nothin' on me and my bow.
     *set rogue true
     *set with_alex true
-    Alright then, Katniss. You come from a long line of dukes and madiens. Your family wanted you to take over family's castle and marry a nice, rich Lord. This plan didn't seem all that bad - until you fell in love. Alex is nothing like a husband your parents wanted you to have. First of all, she's a lady. Second of all, not really a lady - just a regular maid girl. She took care of horses in your castle. All things considered, you picked love over family line. You and Alex ran away from the village, and now you live on the run.
+    Alright then, Katniss. You come from a long line of dukes and maidens. Your family wanted you to take over family's castle and marry a nice, rich Lord. This plan didn't seem all that bad - until you fell in love. Alex is nothing like a husband your parents wanted you to have. First of all, she's a lady. Second of all, not really a lady - just a regular maid girl. She took care of horses in your castle. All things considered, you picked love over family line. You and Alex ran away from the village, and now you live on the run.
 
     But after few weeks, being on the run gets tiring... 
     *choice
@@ -113,7 +113,7 @@ First things first: who are you?
 
             *page_break
 
-            You can't really find your way around the forrest all on your own...
+            You can't really find your way around the forest all on your own...
 
             *page_break
 

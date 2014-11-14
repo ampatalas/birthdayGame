@@ -44,7 +44,7 @@
 
 				*page_break
 
-				The child giggles. "That's not the case," she explains. "The value of the necklace is not in its gold. In fact, it's not even real gold, just an illusion. It's not worth anything to a smiple folk," her eyes bight up. "But it can be very helpful for a witch."
+				The child giggles. "That's not the case," she explains. "The value of the necklace is not in its gold. In fact, it's not even real gold, just an illusion. It's not worth anything to a simple folk," her eyes bight up. "But it can be very helpful for a witch."
 
 				*choice
 					#You don't really want the necklace anymore.
